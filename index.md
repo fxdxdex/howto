@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Introduction to FXDX Trading and Staking
 
 You can use the [editor on GitHub](https://github.com/fxdxdex/howto/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
