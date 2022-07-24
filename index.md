@@ -15,7 +15,7 @@ There are two wallets you can connect on FXDX platform:
 
 You can choose your favourite wallet and connect using the Connect Wallet button on the top right corner. Once you are connected, you will see your account address and three dots which is for more settings. 
 
-![This is an image](/connectedwallet.JPG)
+![Connected Wallet](/connectedwallet.JPG)
 
 ### Opting-in on FXDX
 
@@ -36,6 +36,10 @@ Whenever a user opt-in for smart contracts and ASAs, the minimum balance require
 If a user wants to start trading on FXDX after connecting his/her wallet, he/she needs to opt-in to following:
 
 ### Vault Contract
+
+The user needs to enter the amount of collateral they want to start trading with (minimum collateral size is $10), we are using 30 ALGOs in this example as shown:
+
+![Vault Contract Opt-in](/vaultoptin.JPG)
 
 ```markdown
 Syntax highlighted code block
