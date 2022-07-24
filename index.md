@@ -15,6 +15,8 @@ There are two wallets you can connect on FXDX platform:
 
 You can choose your favourite wallet and connect using the Connect Wallet button on the top right corner. Once you are connected, you will see your account address and three dots which is for more settings. 
 
+![This is an image](/connectedwallet.JPG)
+
 ### Opting-in on FXDX
 
 In order to perform any actions (trading or providing liquidity) on our non-custodial platform, you must opt-in for all the smart contracts and algorand smart assets (ASA) related to FXDX. 
@@ -27,6 +29,13 @@ These include:
 ### Minimum Balance Requirement
 
 Whenever a user opt-in for smart contracts and ASAs, the minimum balance requirement increases. Users on FXDX must have minimum of 10 ALGOs in their wallet in order to trade or provide liquidity. For more information, check [here](https://developer.algorand.org/docs/get-details/parameter_tables/?from_query=minimum%20#minimum-balance). 
+
+
+## Trading 
+
+If a user wants to start trading on FXDX after connecting his/her wallet, he/she needs to opt-in to following:
+
+### Vault Contract
 
 ```markdown
 Syntax highlighted code block
