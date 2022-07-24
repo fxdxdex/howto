@@ -61,7 +61,7 @@ If the user is interested in opening a ***long*** position, which settles the **
 
 Once you have confirmed, you will receive an alert saying "Position App Created for XYZ" upon success. In case of long position, XYZ would be "WALGO Long" and in case of short position, XYZ would be "WALGO Short". For short positions, please check the next section as user is required to opt-in to additional ASA.
 
-### For Short Position
+### Position App For Short Position
 
 If the user is interested in opening a ***short*** position, which settles the ***profits in USDC***, user must opt-in to USDC ASA if they have not already opted-in from previous Dapp interactions.
 
@@ -77,6 +77,27 @@ Now that the user has opted-in for necessary contracts and ASAs, he/she is ready
 
 ### Long Position
 
+User is required to opt-in following as explained in earlier section:
+
+-Vault App
+-WALGO ASA
+-Position App
+
+Once all the above are approved, user needs to select the desired amount of collateral he/she wants to put and the leverage he/she wants to take. For this example, we are taking 30 ALGOs as collateral and opening a position with 10x leverage. 
+
+!(long)[/long.JPG]
+
+One should carefully note the following before placing an order:
+
+-Type of Order - Market or Limit
+-Amount of Collateral 
+-Type of Collateral - ALGO, USDC, USDt
+-Leverage - 1.1 to 30.5x
+-Total Notional Size (Collateral * Leverage) = (This amount - Collateral) would be reserved in the pool's avaliable for securing position.
+-Entry Price 
+-Liquidation Price - Price at which liquidation protocol would close the position if the (collateral + trading fee + borrow fees) < 0.  
+
+In case a user is going for Limit Order, he/she need to put their desired Entry Price. 
 
 
 ```markdown
