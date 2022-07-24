@@ -21,7 +21,7 @@ You can choose your favourite wallet and connect using the Connect Wallet button
 
 In order to perform any actions (trading or providing liquidity) on our non-custodial platform, you must opt-in for all the smart contracts and algorand smart assets (ASA) related to FXDX. 
 
-These include:
+These may include:
 
 - 17 smart contracts 
 - 3 ASAs - WALGO, USDC, USDt
@@ -30,6 +30,14 @@ These include:
 
 Whenever a user opt-in for smart contracts and ASAs, the minimum balance requirement increases. Users on FXDX must have minimum of 10 ALGOs in their wallet in order to trade or provide liquidity. For more information, check [here](https://developer.algorand.org/docs/get-details/parameter_tables/?from_query=minimum%20#minimum-balance). 
 
+### Minimum Profit Rules
+
+In order for any position to be close in profit, the position must meet two of the requirements:
+
+- *Minimum Price Movement* - A minimum price change of 1.5% is required for a position to be in profit.
+- *Minimum Profit Time* - The position must be opened for atleast 3 hours to be closed in profit.
+
+These rules exist to prevent Oracle front-running and minimize depletion of pool from bad actors. 
 
 # Trading 
 
@@ -206,3 +214,25 @@ Users can choose to close their order completely or partially as they need to.
 ### Trigger Order
 
 If the order is executed and available under Positions and user want to either put an Stop-Loss or Take Profit on their order, they can do so by choosing Trigger option under Close button, enter the desired price and confirm by clicking on "Create Order". 
+
+
+# Liquidity Provider
+
+FXDX relies on its liquidity providers to execute any trade. Anyone can provide liquidity on FXDX by buying FLP [here](https://mainnet.fxdx.exchange/buy_flp). 
+
+## FLP - FXDX Liquidity provider Token
+
+
+FLP is the liquidity token, a liquidity provider receives in return for the deposited assets. 
+
+One can get FLP by depositing following: 
+
+- ALGO
+- USDC
+- USDT 
+
+### Minting FLP
+
+When a user deposits assets mentioned above, he/she mints FLP at FLP market price. 
+
+The amount of FLP tokens received is equal to (Deposited Asset in USD) / (Current FLP Price in USD). 
