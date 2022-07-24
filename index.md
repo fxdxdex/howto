@@ -155,11 +155,28 @@ After clicking "Short ALGO", user would be shown an confirmation box, where user
 
 ### Market Order
 
-If the user has placed an Market type Order, the order would be immediately executed at the current Oracle Price and would be shown as below.
+If the user has placed an Market type Order, the order would be immediately executed at the current Oracle Price and would be shown as below under Positions Tab.
 
 - Long Order
 
-![marketlong]()
+![marketlong](/marketlong.JPG)
+
+- Short Order
+
+![marketshort](/marketshort.JPG)
+
+
+### Limit Order
+
+If the user has placed an Limit type Order, the order would be executed when the oracle price is near the entered price and would be visible until its executed, under Orders Tab, as shown below. 
+
+- Long Order
+
+![limitlong](/limitlong1.JPG)
+
+- Short Order
+
+![limitshort](/limitshort1.JPG)
 
 ```markdown
 Syntax highlighted code block
