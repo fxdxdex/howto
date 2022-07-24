@@ -178,8 +178,28 @@ If the user has placed an Limit type Order, the order would be executed when the
 
 ![limitshort](/limitshort1.JPG)
 
-```markdown
-Syntax highlighted code block
+## Order Change
+
+If the order is executed and available under Position, user can either:
+
+- Deposit 
+- Withdraw
+
+### Deposit Collateral
+
+If users want to reduce their chances of liquidation and leverage, they can deposit more collateral as per their needs. 
+
+### Withdraw Collateral
+
+If users want to exit position immediately or increase leverage for the same collateral, they can withdraw their collateral as per their needs.
+
+## Order Close
+
+### Market Order 
+
+If the order is executed and available under Position, user can close them via two methods:
+
+1. 
 
 # Header 1
 ## Header 2
