@@ -1,4 +1,4 @@
-## The Beginner's Guide to FXDX
+# The Beginner's Guide to FXDX
 
 Learn how to trade and (or) become liquidity provider on FXDX platform.
 
@@ -31,7 +31,9 @@ These include:
 Whenever a user opt-in for smart contracts and ASAs, the minimum balance requirement increases. Users on FXDX must have minimum of 10 ALGOs in their wallet in order to trade or provide liquidity. For more information, check [here](https://developer.algorand.org/docs/get-details/parameter_tables/?from_query=minimum%20#minimum-balance). 
 
 
-## Trading 
+# Trading 
+
+## Opt-in
 
 If a user wants to start trading on FXDX after connecting his/her wallet, he/she needs to opt-in to following:
 
@@ -69,7 +71,7 @@ If the user is interested in opening a ***short*** position, which settles the *
 
 Once you have confirmed, you will receive an alert saying "USDC Approved" upon success. Now the user needs to approve the Position App as shown [above](#position-app). 
 
-### Opening a position
+## Opening Position
 
 By default, if a user has opted-in for WALGO, he/she can open long position using ALGO as collateral. If a user wishes to provide USDC as collateral, he/she needs to opt-in to USDC ASA as mention in the section above. 
 
@@ -101,6 +103,16 @@ In case a user is going for Limit Order, he/she need to put their desired Entry 
 
 ![limitlong](/limitlong.JPG)
 
+After clicking "Long ALGO", user would be shown an confirmation box, where user can verify the order details before it is send to the smart contract for execution. 
+
+- Market Order
+
+![confirmlong](/confirmlong.JPG)
+
+- Limit Order
+
+![confirmlimitlong](/confirmlimitlong.JPG)
+
 ### Short Position
 
 User is required to opt-in following as explained in earlier section:
@@ -129,7 +141,15 @@ In case a user is going for Limit Order, he/she need to put their desired Entry 
 
 ![limitshort](/limitshort.JPG)
 
+## Order Execution
 
+### Market Order
+
+If the user has placed an Market type Order, the order would be immediately executed at the current Oracle Price and would be shown as below.
+
+- Long Order
+
+![marketlong]()
 
 ```markdown
 Syntax highlighted code block
