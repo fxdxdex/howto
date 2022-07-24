@@ -1,23 +1,32 @@
-## Introduction to FXDX Trading and Staking
+## The Beginner's Guide to FXDX
 
-You can use the [editor on GitHub](https://github.com/fxdxdex/howto/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Learn how to trade and (or) become liquidity provider on FXDX platform.
 
-Welcome to FXDX Tutorial on how to get started with our platform. 
+This is a guide for beginners who want to get started on FXDX either via trading, providing liquidity or both. 
 
-## How to Trade
+## Getting Started
 
 ### Connect your wallet
 
-There are two wallets you can connect on FXDX
+There are two wallets you can connect on FXDX platform:
 
 - My Algo wallet
-- 
+- Pera Wallet
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can choose your favourite wallet and connect using the Connect Wallet button on the top right corner. Once you are connected, you will see your account address and three dots which is for more settings. 
 
-### Markdown
+### Opting-in on FXDX
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In order to perform any actions (trading or providing liquidity) on our non-custodial platform, you must opt-in for all the smart contracts and algorand smart assets (ASA) related to FXDX. 
+
+These include:
+
+- 17 smart contracts 
+- 3 ASAs - WALGO, USDC, USDt
+
+### Minimum Balance Requirement
+
+Whenever a user opt-in for smart contracts and ASAs, the minimum balance requirement increases. Users on FXDX must have minimum of 10 ALGOs in their wallet in order to trade or provide liquidity. For more information, check [here](https://developer.algorand.org/docs/get-details/parameter_tables/?from_query=minimum%20#minimum-balance). 
 
 ```markdown
 Syntax highlighted code block
