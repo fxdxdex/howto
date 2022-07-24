@@ -197,31 +197,10 @@ If users want to exit position immediately or increase leverage for the same col
 
 ### Market Order 
 
-If the order is executed and available under Position, user can close them via two methods:
+If the order is executed and available under Positions and user wants to immediately exit the position, user can do so by choosing Market option after clicking on Close button. This will close the order at market price immediately.
 
-1. 
+Users can choose to close their order completely or partially as they need to. 
 
-# Header 1
-## Header 2
-### Header 3
+### Trigger Order
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fxdxdex/howto/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If the order is executed and available under Positions and user want to either put an Stop-Loss or Take Profit on their order, they can do so by choosing Trigger option under Close button, enter the desired price and confirm by clicking on "Create Order". 
