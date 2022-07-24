@@ -99,7 +99,7 @@ One should carefully note the following before placing an order:
 
 In case a user is going for Limit Order, he/she need to put their desired Entry Price as well.
 
-!(Limitlong)[/limitlong.JPG]
+![limitlong](/limitlong.JPG)
 
 
 
