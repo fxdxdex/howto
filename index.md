@@ -236,4 +236,4 @@ When a user deposits assets mentioned above, he/she mints FLP at FLP market pric
 
 The amount of FLP tokens received is equal to (Deposited Asset in USD) / (Current FLP Price in USD). 
 
-Amount of FLP tokens = $\frac{Deposited Asset in USD}{Current FLP Price in USD}$
+Amount of FLP tokens = (Total Worth of Assets in Index including profits and losses of open positions) / (FLP supply). 
