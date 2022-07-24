@@ -79,9 +79,9 @@ Now that the user has opted-in for necessary contracts and ASAs, he/she is ready
 
 User is required to opt-in following as explained in earlier section:
 
--Vault App
--WALGO ASA
--Position App
+- Vault App
+- WALGO ASA
+- Position App
 
 Once all the above are approved, user needs to select the desired amount of collateral he/she wants to put and the leverage he/she wants to take. For this example, we are taking 30 ALGOs as collateral and opening a position with 10x leverage. 
 
@@ -97,7 +97,9 @@ One should carefully note the following before placing an order:
 -Entry Price 
 -Liquidation Price - Price at which liquidation protocol would close the position if the (collateral + trading fee + borrow fees) < 0.  
 
-In case a user is going for Limit Order, he/she need to put their desired Entry Price. 
+In case a user is going for Limit Order, he/she need to put their desired Entry Price as well.
+
+!(limitlong)[/limitlong.JPG]
 
 
 ```markdown
