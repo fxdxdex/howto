@@ -191,7 +191,9 @@ If users want to reduce their chances of liquidation and leverage, they can depo
 
 ### Withdraw Collateral
 
-If users want to exit position immediately or increase leverage for the same collateral, they can withdraw their collateral as per their needs.
+If users want to exit position immediately or increase leverage for the same collateral, they can withdraw their collateral as per their needs. 
+
+*Note: Users can't withdraw collateral if the value of collateral in USD in under $10.*
 
 ## Order Close
 
