@@ -83,7 +83,7 @@ User is required to opt-in following as explained in earlier section:
 - WALGO ASA
 - Position App
 
-Once all the above are approved, user needs to select the desired amount of collateral he/she wants to put and the leverage he/she wants to take. For this example, we are taking 30 ALGOs as collateral and opening a position with 10x leverage. 
+Once all the above are approved, user needs to select the desired amount of collateral he/she wants to put and the leverage he/she wants to take. For this example, we are taking 30 ALGOs as collateral and opening a short position with 10x leverage. 
 
 ![long](https://github.com/fxdxdex/howto/blob/f11b17482a44ae9c78e39fce94935620c9e38abb/long.JPG)
 
@@ -100,6 +100,33 @@ One should carefully note the following before placing an order:
 In case a user is going for Limit Order, he/she need to put their desired Entry Price as well.
 
 ![limitlong](/limitlong.JPG)
+
+### Short Position
+
+User is required to opt-in following as explained in earlier section:
+
+- Vault App
+- WALGO ASA
+- USDC ASA
+- Position App
+
+Once all the above are approved, user needs to select the desired amount of collateral he/she wants to put and the leverage he/she wants to take. For this example, we are taking 10 USDC as collateral and opening a short position with 10x leverage. 
+
+![short](/short.JPG)
+
+One should carefully note the following before placing an order:
+
+- Type of Order - Market or Limit
+- Amount of Collateral 
+- Type of Collateral - ALGO, USDC, USDt
+- Leverage - 1.1 to 30.5x
+- Total Notional Size (Collateral * Leverage) = (This amount - Collateral) would be reserved in the pool's avaliable for securing position.
+- Entry Price 
+- Liquidation Price - Price at which liquidation protocol would close the position if the (collateral + trading fee + borrow fees) < 0. For a long position, it would be lower than entry price.
+
+In case a user is going for Limit Order, he/she need to put their desired Entry Price as well.
+
+![limitshort](/limitshort.JPG)
 
 
 
