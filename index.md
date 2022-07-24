@@ -55,17 +55,29 @@ Once you have confirmed, you will receive an alert saying "WALGO Approved" upon 
 
 ### Position App
 
-If the user is interested in opening a ***long*** position, which settles the ***profit in ALGO***, needs to opt-in to Position App as "Create Position App" shown below:
+If the user is interested in opening a ***long*** position, which settles the ***profits in ALGO***, needs to opt-in to Position App as "Create Position App" button shown below:
 
 ![Positionoptin](/positionoptin.JPG)
 
-Once you have confirmed, you will receive an alert saying "Position App Created for XYZ" upon success. In case of long position, XYZ would be "WALGO Long".
+Once you have confirmed, you will receive an alert saying "Position App Created for XYZ" upon success. In case of long position, XYZ would be "WALGO Long" and in case of short position, XYZ would be "WALGO Short". For short positions, please check the next section as user is required to opt-in to additional ASA.
 
 ### For Short Position
 
 If the user is interested in opening a ***short*** position, which settles the ***profits in USDC***, user must opt-in to USDC ASA if they have not already opted-in from previous Dapp interactions.
 
 ![USDCoptin](/usdcoptin.JPG)
+
+Once you have confirmed, you will receive an alert saying "USDC Approved" upon success. Now the user needs to approve the Position App as shown [above](#position-app). 
+
+### Opening a position
+
+By default, if a user has opted-in for WALGO, he/she can open long position using ALGO as collateral. If a user wishes to provide USDC as collateral, he/she needs to opt-in to USDC ASA as mention in the section above. 
+
+Now that the user has opted-in for necessary contracts and ASAs, he/she is ready to place his/her desired order. 
+
+### Long Position
+
+
 
 ```markdown
 Syntax highlighted code block
