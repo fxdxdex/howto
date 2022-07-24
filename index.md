@@ -35,7 +35,7 @@ Whenever a user opt-in for smart contracts and ASAs, the minimum balance require
 
 If a user wants to start trading on FXDX after connecting his/her wallet, he/she needs to opt-in to following:
 
-### Vault
+### Vault App
 
 The user needs to enter the amount of collateral they want to start trading with (minimum collateral size is $10), we are using 30 ALGOs in this example as shown:
 
@@ -45,11 +45,19 @@ Click the button and confirm the transaction from your wallet.
 
 Once you have confirmed, you will receive an alert saying "Vault App Approved" upon success. Now we have approved FXDX Vault contract, lets continue to next opt-in. 
 
-### WALGO 
+### WALGO ASA
 
 FXDX uses its native ASA called WALGO (Wrapped ALGO) in order to execute and settle trades efficiently. All users have to opt-in to WALGO for proper trade execution and settlement.
 
 ![WALGO Opt-in](/walgooptin.JPG)
+
+Once you have confirmed, you will receive an alert saying "WALGO Approved" upon success. Now we have approved FXDX WALGO ASA, lets continue to next opt-in. 
+
+### Position App
+
+If the user is interested in opening a long position, which settles the profit in ALGO, needs to opt-in to Position App as "Create Position App" shown below:
+
+![Positionoptin](/positionoptin.JPG)
 
 ```markdown
 Syntax highlighted code block
