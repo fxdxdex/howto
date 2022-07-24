@@ -220,10 +220,9 @@ If the order is executed and available under Positions and user want to either p
 
 FXDX relies on its liquidity providers to execute any trade. Anyone can provide liquidity on FXDX by buying FLP [here](https://mainnet.fxdx.exchange/buy_flp). 
 
-## FLP - FXDX Liquidity provider Token
+## FLP - FXDX Liquidity Provider Token
 
-
-FLP is the liquidity token, a liquidity provider receives in return for the deposited assets. 
+FLP is the liquidity token of FXDX and is the lifeline of the platform which a liquidity provider receives in return for the deposited assets. 
 
 One can get FLP by depositing following: 
 
@@ -236,3 +235,5 @@ One can get FLP by depositing following:
 When a user deposits assets mentioned above, he/she mints FLP at FLP market price. 
 
 The amount of FLP tokens received is equal to (Deposited Asset in USD) / (Current FLP Price in USD). 
+
+Amount of FLP tokens = $\frac{Deposited Asset in USD}{Current FLP Price in USD}$
