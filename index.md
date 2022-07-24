@@ -59,6 +59,14 @@ If the user is interested in opening a long position, which settles the profit i
 
 ![Positionoptin](/positionoptin.JPG)
 
+Once you have confirmed, you will receive an alert saying "Position App Created for XYZ" upon success. In case of long position, XYZ would be "WALGO Long".
+
+### For Short Position
+
+If the user is interested in opening a short position, which settles the profits in USDC, user must opt-in to USDC ASA if they have not already opted-in from previous Dapp interactions.
+
+![USDCoptin](/usdcoptin.JPG)
+
 ```markdown
 Syntax highlighted code block
 
