@@ -85,7 +85,7 @@ User is required to opt-in following as explained in earlier section:
 
 Once all the above are approved, user needs to select the desired amount of collateral he/she wants to put and the leverage he/she wants to take. For this example, we are taking 30 ALGOs as collateral and opening a position with 10x leverage. 
 
-[!(Long)[/long.JPG]](https://github.com/fxdxdex/howto/blob/f11b17482a44ae9c78e39fce94935620c9e38abb/long.JPG)
+![long](https://github.com/fxdxdex/howto/blob/f11b17482a44ae9c78e39fce94935620c9e38abb/long.JPG)
 
 One should carefully note the following before placing an order:
 
