@@ -296,4 +296,6 @@ They can claim it anytime as shown below.
 
 After clicking the Claim button you may see the following: 
 
-![claimoptions](/claimoptions.png)
+![claimoptions](/claimoptions.png) 
+
+
