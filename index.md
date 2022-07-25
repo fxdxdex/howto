@@ -284,3 +284,13 @@ If the price of ALGO increases, the total worth of assets in FLP Index pool woul
 ### FLP Risk
 
 All FLP holders are subjected to Market Risk via Pool Index Composition and Net PnL of platform traders, both are explained in previous sections.
+
+## FLP Reward Claims
+
+### FLP esFXDX Rewards
+
+All FLP holders would receive esFXDX per second based on their allocation size in the FLP pool. 
+
+They are claim it anytime as shown below. 
+
+![rewardsclaim](/rewardsclaim.png)
