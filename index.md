@@ -228,12 +228,59 @@ One can get FLP by depositing following:
 
 - ALGO
 - USDC
-- USDT 
 
 ### Minting FLP
 
-When a user deposits assets mentioned above, he/she mints FLP at FLP market price. 
+When a user deposits assets for liquidity, he/she mints FLP at FLP market price. 
 
 The amount of FLP tokens received = (Deposited Assets in USD) / (Current FLP Price in USD). 
 
-Amount of FLP tokens = (Total Worth of Assets in Index  - Collaterals - Fees) / (FLP supply). 
+### Burning FLP
+
+When a user withdraws assets for liquidity, he/she burns FLP at market price. 
+
+## FLP Rewards
+
+FLP holders are rewarded in combination of:
+
+- ALGO 
+- esFXDX
+- Multiplier Points
+
+### FLP - ALGO Rewards
+
+FXDX currently distributes 100% of platform revenue (trading, liquidation, borrowing fees) to compensate their service. Rewards are distributed weekly and would be updated in real-time at [earn](https://mainnet.fxdx.exchange/earn). 
+
+### FLP - esFXDX Rewards
+
+FXDX currently distributes esFXDX in addition to ALGO rewards to reward early FLP adopters. Currently it is distributed at 0.18 esFXDX per 4.5 seconds. 
+
+### Mutliplier 
+
+
+## FLP Exposure and Risks
+
+FLP holders have exposure to overall platform traders positions and their profit and loss apart from the exposure to FLP Index. 
+
+### FLP Exposure
+
+Platform users are always trading against the FLP pool, we are a peer-to-pool concentrated liquidity model. 
+
+- If a trader exits in loss, the FLP pool takes the collateral (used to cover the loss), trading fees and borrowing fees from the trader. 
+- If a trader exits in profit, the FLP pool gives the profit to the trader and takes trading and borrowing fees from the trader. 
+- If a trader swaps any asset to any other asset avaliable in the FLP pool, pool takes the trading fees. 
+- If a trader gets liquidated, the FLP pool takes the full collateral, trading fees and borrowing fees from the trader. 
+
+The FLP holders are also exposed to FLP Index Composition. 
+
+![flpool](/flppool.png)
+
+Price of FLP = (Total Worth of Assets in Index  - Collaterals - Fees) / (FLP supply). 
+
+If the price of ALGO decreases, the total worth of assets in FLP Index pool would decrease while the supply of FLP remains same, which would decrease the FLP price. 
+
+If the price of ALGO increases, the total worth of assets in FLP Index pool would increase while the supply of FLP remains same, which would increase the FLP price.
+
+### FLP Risk
+
+All FLP holders are subjected to Market Risk via Pool Index Composition and Net PnL of platform traders, both are explained in previous sections.
