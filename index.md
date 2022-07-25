@@ -287,10 +287,13 @@ All FLP holders are subjected to Market Risk via Pool Index Composition and Net 
 
 ## FLP Reward Claims
 
-### FLP esFXDX Rewards
 
-All FLP holders would receive esFXDX per second based on their allocation size in the FLP pool. 
+All FLP holders would receive ALGO rewards as well as esFXDX per second based on their allocation size in the FLP pool. 
 
-They are claim it anytime as shown below. 
+They can claim it anytime as shown below. 
 
-![rewardsclaim](/rewardsclaim.png)
+![rewardsclaim](/rewardsclaim.png) 
+
+After clicking the Claim button you may see the following: 
+
+![claimoptions](/claimoptions.png)
