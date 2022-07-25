@@ -234,6 +234,6 @@ One can get FLP by depositing following:
 
 When a user deposits assets mentioned above, he/she mints FLP at FLP market price. 
 
-The amount of FLP tokens received is equal to (Deposited Asset in USD) / (Current FLP Price in USD). 
+The amount of FLP tokens received = (Deposited Assets in USD) / (Current FLP Price in USD). 
 
-Amount of FLP tokens = (Total Worth of Assets in Index including profits and losses of open positions) / (FLP supply). 
+Amount of FLP tokens = (Total Worth of Assets in Index  - Collaterals - Fees) / (FLP supply). 
