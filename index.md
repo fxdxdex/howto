@@ -149,7 +149,7 @@ In case a user is going for Limit Order, he/she need to put their desired Entry 
 
 ![limitshort](/limitshort.JPG)
 
-After clicking "Short ALGO", user would be shown an confirmation box, where user can verify the order details before it is send to the smart contract for execution. 
+After clicking "Short ALGO", user would be shown a confirmation box, where user can verify the order details before it is send to the smart contract for execution. 
 
 - Market Order
 
