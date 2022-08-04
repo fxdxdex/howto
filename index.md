@@ -105,7 +105,7 @@ One should carefully note the following before placing an order:
 - Leverage - 1.1 to 30.5x
 - Total Notional Size (Collateral * Leverage) = (This amount - Collateral) would be reserved in the pool's avaliable for securing position.
 - Entry Price 
-- Liquidation Price - Price at which liquidation protocol would close the position if the (collateral + trading fee + borrow fees) < 0. For a long position, it would be lower than entry price.
+- Liquidation Price - Price at which liquidation protocol would close the position if the (collateral - trading fee - borrow fees + profit - loss) < 0. For a long position, it would be lower than entry price.
 
 In case a user is going for Limit Order, he/she need to put their desired Entry Price as well.
 
@@ -143,7 +143,7 @@ One should carefully note the following before placing an short order:
 - Leverage - 1.1 to 30.5x
 - Total Notional Size (Collateral * Leverage) = (This amount - Collateral) would be reserved in the pool's avaliable for securing position.
 - Entry Price 
-- Liquidation Price - Price at which liquidation protocol would close the position if the (collateral + trading fee + borrow fees) < 0. For a long position, it would be lower than entry price.
+- Liquidation Price - Price at which liquidation protocol would close the position if the (collateral - trading fee - borrow fees + profit - loss) < 0. For a short position, it would be higher than entry price.
 
 In case a user is going for Limit Order, he/she need to put their desired Entry Price as well.
 
