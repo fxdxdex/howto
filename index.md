@@ -34,8 +34,8 @@ Whenever a user opt-in for smart contracts and ASAs, the minimum balance require
 
 In order for any position to be close in profit, the position must meet two of the requirements:
 
-- *Minimum Price Movement* - A minimum price change of 1.5% is required for a position to be in profit.
-- *Minimum Profit Time* - The position must be opened for atleast 3 hours to be closed in profit.
+- *Minimum Price Movement* - A minimum price change of 2% is required for a position to be in profit.
+- *Minimum Profit Time* - The position must be opened for atleast 1.5 hours to be closed in profit.
 
 These rules exist to prevent Oracle front-running and minimize depletion of pool from bad actors. 
 
