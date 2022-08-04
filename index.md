@@ -24,7 +24,7 @@ In order to perform any actions (trading or providing liquidity) on our non-cust
 These may include:
 
 - 17 smart contracts 
-- 3 ASAs - WALGO, USDC, USDt
+- 3 ASAs - WALGO, USDC
 
 ### Minimum Balance Requirement
 
@@ -101,7 +101,7 @@ One should carefully note the following before placing an order:
 
 - Type of Order - Market or Limit
 - Amount of Collateral 
-- Type of Collateral - ALGO, USDC, USDt
+- Type of Collateral - ALGO, USDC
 - Leverage - 1.1 to 30.5x
 - Total Notional Size (Collateral * Leverage) = (This amount - Collateral) would be reserved in the pool's avaliable for securing position.
 - Entry Price 
@@ -138,8 +138,8 @@ One should carefully note the following before placing an short order:
 
 - Type of Order - Market or Limit
 - Amount of Collateral 
-- Type of Collateral - ALGO, USDC, USDt
-- Profits In - USDC, USDt
+- Type of Collateral - ALGO, USDC
+- Profits In - USDC
 - Leverage - 1.1 to 30.5x
 - Total Notional Size (Collateral * Leverage) = (This amount - Collateral) would be reserved in the pool's avaliable for securing position.
 - Entry Price 
