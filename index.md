@@ -24,20 +24,11 @@ In order to perform any actions (trading or providing liquidity) on our non-cust
 These may include:
 
 - 17 smart contracts 
-- 3 ASAs - WALGO, USDC
+- 2 ASAs - WALGO, USDC
 
 ### Minimum Balance Requirement
 
 Whenever a user opt-in for smart contracts and ASAs, the minimum balance requirement increases. Users on FXDX must have minimum of 10 ALGOs in their wallet in order to trade or provide liquidity. For more information, check [here](https://developer.algorand.org/docs/get-details/parameter_tables/?from_query=minimum%20#minimum-balance). 
-
-### Minimum Profit Rules
-
-In order for any position to be close in profit, the position must meet two of the requirements:
-
-- *Minimum Price Movement* - A minimum price change of 2% is required for a position to be in profit.
-- *Minimum Profit Time* - The position must be opened for atleast 1.5 hours to be closed in profit.
-
-These rules exist to prevent Oracle front-running and minimize depletion of pool from bad actors. 
 
 # Trading 
 
