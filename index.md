@@ -246,7 +246,9 @@ FXDX currently distributes 100% of platform revenue (trading, liquidation, borro
 
 FXDX currently distributes esFXDX in addition to ALGO rewards to reward early FLP adopters. Currently it is distributed at 0.18 esFXDX per 4.5 seconds. 
 
-### Mutliplier 
+### Mutliplier Points
+
+When you stake FXDX, you receive Multiplier Points every second at a fixed rate of 100% APR. 1000 FXDX staked for one year would earn 1000 Multiplier Points.
 
 
 ## FLP Exposure and Risks
